@@ -3,9 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>DNS project</title>
 </head>
 <body>
+  <div class="main-bg">
+    <header>
+      <nav class="navbar"> 
+        <div class="brand">
+          <img src="images/c-prog-logo.png" alt="">
+          <h1>aroline.</h1>
+        </div>
+        
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- home section -->
+    <section id="home">
+      <div class="info">
+        <h1>Caroline Vineeta</h1>
+        <h4>Second-year undergraduate with a passion for coding, design, and building real-world solutions. </h4>
+        <button><a href="#contact">Contact Me!</a></button>
+        <div class="socials">
+          <a href="https://github.com/carovine/" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i></a>
+          <a href="https://www.linkedin.com/in/carolinevineeta/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i></a>
+          <a href="https://github.com/carovine/" target="_blank"><i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i></a>
+        </div>
+      </div>
+      <div class="profile">
+        <img src="images/profile.jpeg" alt="profile picture">
+      </div>
+    </section>
+  </div>
   
+  <!-- about section -->
+   <div class="title">About me!</div>
+  <section id="about">
+    <img src="images/profile.jpeg" alt="">
+    <div class="aboutme">
+      <h1>I'm Caroline</h1>
+      <p>An aspiring developer a second-year undergraduate at SRM Institute of Science and Technology. I’m passionate about coding and creating real-world tech solutions. I love working on projects using HTML, CSS, JavaScript, Python, and Flask. I’m always exploring new technologies and building applications that help me grow and learn. Constantly curious and always up for a challenge!</p>
+      <p><span class="highlight">Email:</span> carvin2105@gmail.com</p>
+      <p><span class="highlight">Location:</span> Chennai, TamilNadu</p>
+      <button><a href="C:\Users\carvi\OneDrive\Desktop\CAROLINE VINEETA RESUME.pdf">Resume</a></button>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="title skills-title">SKILLS!</div>
+    <div class="parent">
+      <div class="div1">
+        <img src="images/icons8-html-5.svg" alt=""> 
+        <h4>HTML</h4>
+      </div>
+      <div class="div2">
+        <img src="images/icons8-python.svg" alt=""> 
+        <h4>PYTHON</h4>
+      </div>
+      <div class="div3">
+        <img src="images/icons8-css-logo.svg" alt="">
+        <h4>CSS</h4>
+      </div>
+      <div class="div4">
+        <img src="images/icons8-mysql-logo.svg" alt="">
+        <h4>MYSQL</h4>
+      </div>
+      <div class="div5">
+        <img src="images/icons8-javascript.svg" alt="">
+        <h4>JAVASCRIPT</h4>
+      </div>
+      <div class="div6">
+        <img src="images/icons8-github.svg" alt="">
+        <h4>GITHUB</h4>
+      </div>
+      <div class="div7">
+        <img src="images/icons8-django.svg" alt="">
+        <h4>DJANGO</h4>
+      </div>
+      <div class="div8">
+        <img src="images/" alt="">
+        <h4></h4>
+      </div>
+      </div>
+  </section>
+  <script>
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("scrolled", window.scrollY > 50);
+  });
+</script>
+
 </body>
 </html>
